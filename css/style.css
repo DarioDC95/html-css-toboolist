@@ -63,7 +63,25 @@ section > div {
 #liste {
     background-color: white;
     margin-top: 5px;
-    padding: 40px 0 40px 60px;
+    padding: 30px 0 40px 60px;
+}
+
+.start-list {
+    margin-top: 10px;
+}
+
+.start-list > h2 {
+    display: inline-block;
+}
+
+.triangle-down {
+    display: inline-block;
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 7px solid black;
+    margin-bottom: 2px;
 }
 
 ul {
@@ -75,7 +93,7 @@ ul {
 
 .evidenziate {
     display: inline-block;
-    font-size: 15px;
+    font-size: 12px;
     padding: 5px 10px;
     color: white;
     border-radius: 15px;
@@ -85,11 +103,35 @@ ul {
     background-color: rgb(158, 72, 239);
 }
 
+.grey {
+    background-color: rgb(180, 123, 132);
+}
+
+.orange {
+    background-color: orange;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
 ul .spunta:before {
     content: ' \2714';
     color: grey;
     font-size: 15px;
-    margin-left: -1em;
+    margin-left: -1.3em;
+    margin-right: 3px;
+    padding: 1.5px 4px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+ul .croce:before {
+    content: ' \2715';
+    color: red;
+    font-size: 15px;
+    margin-left: -1.3em;
+    margin-right: 3px;
     padding: 1.5px 4px;
     border: 1px solid grey;
     border-radius: 50%;
