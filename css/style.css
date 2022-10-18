@@ -63,7 +63,7 @@ section > div {
 #liste {
     background-color: white;
     margin-top: 5px;
-    padding: 30px 0 35px 60px;
+    padding: 30px 0 30px 60px;
 }
 
 .start-list {
@@ -113,6 +113,7 @@ ul {
 
 li {
     margin-bottom: 15px;
+    height: 25px;
 }
 
 ul .spunta:before {
