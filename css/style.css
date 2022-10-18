@@ -2,11 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: rgb(250, 243, 243);
+}
+
+/* titolo e logo */
 header {
     padding: 15px 30px;
     position: relative;
+    background-color: white;
 }
 
 #Logo {
@@ -16,9 +23,36 @@ header {
 
 h1 {
     font-size: 55px;
-    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     margin-left: 5px;
     position: absolute;
     top: 20px;
 }
+
+main {
+    width: 75%;
+    margin: 60px auto 15px;
+    background-color: white;
+    padding: 15px 0 10px 60px;
+}
+
+/* Input di selezione */
+section > div {
+    display: inline-block;
+}
+
+#Add-Task {
+    padding: 10px;
+    background-color: rgb(158, 72, 239);
+    border-radius: 5px;
+    color: white;
+    margin-right: 5px;
+}
+
+#Add-Section {
+    padding: 9px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: grey;
+}
+
