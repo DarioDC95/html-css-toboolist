@@ -67,8 +67,8 @@ section > div {
     padding: 30px 0 30px 60px;
 }
 
-.start-list {
-    margin-top: 10px;
+.second, .third {
+    margin-top: 20px;
 }
 
 .start-list > h2 {
@@ -86,14 +86,13 @@ section > div {
 }
 
 ul {
-    margin-top: 8px;
     margin-inline-start: 1em;
     font-size: 20px;
     list-style: none;
 }
 
 .evidenziate {
-    display: inline-block;
+    display: inline;
     font-size: 12px;
     padding: 5px 10px;
     color: white;
@@ -113,15 +112,14 @@ ul {
 }
 
 li {
-    margin-bottom: 15px;
-    height: 25px;
+    padding: 8px;
 }
 
 ul .spunta:before {
     content: ' \2714';
     color: grey;
     font-size: 15px;
-    margin-left: -1.3em;
+    margin-left: -2em;
     margin-right: 3px;
     padding: 1.5px 4px;
     border: 1px solid grey;
@@ -132,7 +130,7 @@ ul .croce:before {
     content: ' \2715';
     color: red;
     font-size: 15px;
-    margin-left: -1.3em;
+    margin-left: -2em;
     margin-right: 3px;
     padding: 1.5px 4px;
     border: 1px solid grey;
